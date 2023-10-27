@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container_header">
+        <div class="container_balance">
+          <span class="balance-text"> My balance </span>
+          <span class="balance-prize">$921.48 </span>
+        </div>
+        <div class="container_logo">
+          <img src="images/logo.svg" alt="logo" class="logo" />
+        </div>
+      </div>
+
+      <div class="container_main">
+        <div class="container_title">
+          <h1 class="title">Spending - Last 7 days</h1>
+        </div>
+
+        <div class="container_chart">
+          <div class="container_days">
+            <div class="chart-mon"></div>
+            <span class="day">mon</span>
+          </div>
+          <div class="container_days">
+            <div class="chart-tue"></div>
+            <span class="day">tue</span>
+          </div>
+          <div class="container_days">
+            <div class="chart-prize-wed">
+              <span class="prize-chart"> $52.36 </span>
+            </div>
+            <div class="chart-wed"></div>
+            <span class="day">wed</span>
+          </div>
+          <div class="container_days">
+            <div class="chart-prize-thu">
+              <span class="prize-chart"> $31.07 </span>
+            </div>
+            <div class="chart-thu"></div>
+            <span class="day">thu</span>
+          </div>
+          <div class="container_days">
+            <div class="chart-fri"></div>
+            <span class="day">fri</span>
+          </div>
+          <div class="container_days">
+            <div class="chart-sat"></div>
+            <span class="day">sat</span>
+          </div>
+          <div class="container_days">
+            <div class="chart-sun"></div>
+            <span class="day">sun</span>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="container_footer-1">
+            <span class="total"> Total this month </span>
+            <span class="prize"> $478.33 </span>
+          </div>
+          <div class="container_footer-2">
+            <span class="percent"> +2.4% </span>
+            <span class="from"> from last month </span>
+          </div>
+        </footer>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
